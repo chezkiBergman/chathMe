@@ -20,7 +20,7 @@ var animation = 2
 
 var players = []
 
-
+// Get names from local srotrage
 var nameJSON = localStorage.getItem("allNames");
 if (nameJSON != null) {
     var arr = JSON.parse(nameJSON);
